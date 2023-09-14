@@ -1,0 +1,142 @@
+body {
+    font-size: 16px;
+    font-family: 'Old Standard TT', serif;
+    background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco) 100%);
+    }
+html{
+        font-size: 62.5%;
+        box-sizing: border-box;
+        scroll-snap-type: y mandatory ;
+    }    
+*, *:before, *:after {
+        box-sizing: inherit;
+      } 
+
+.fa-solid {
+    padding-left: 35px;
+    padding-block: 20px;
+    padding-bottom: 0px;
+    color: #000;
+    font-size: 50px;
+    align-items: center;
+}
+
+h2 {
+    padding-left: 35px;
+    color: #000607;
+}
+
+a {
+    padding-left: 1150px;
+    color: #f1f5f5;
+    display: flow-root;
+    font-size: larger;
+}
+
+.header {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav {
+
+    display: block;
+    text-align: center ;
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+.nav li a {
+    
+    text-decoration: none;
+    padding: 20px 16px;
+    display: inline-flex;
+}
+
+.nav li a:hover {
+        background-color: #0f0f0e;
+}
+
+.nav > li {
+    float: left;
+    background-color: rgb(233, 1, 1);
+    border-radius:30px ;
+}
+
+.nav li ul {
+    display: none;
+    position:sticky;
+    min-width: 100px;
+    background-color: rgb(233, 1, 1);
+    text-align:right;
+   
+    
+    
+    
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.Ofertas li a {
+    position: relative;
+    top: 250px;
+    color: #2c33b5;
+    font-size: large;
+}
+td, th {
+    border: 2px solid rgb(233, 1, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+* {
+    margin: 0;
+    text-align: center;
+   
+}
+    
+h1{
+    text-align:center;
+    font-size: 40px;
+}
+h2{
+    text-align:center; 
+  
+}
+
+.hero{
+    background-image:url(../../imagenes/claro3.jpg) ;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    margin-bottom: 3rem;
+    border-radius:55px ;
+    }
+ 
+    
+  
+  .salir{
+    color: #000;
+    background-color:rgb(233, 1, 1);
+    text-decoration: none; 
+    position: absolute; /* Posición absoluta para colocar en la esquina */
+    top: 5px; /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la derecha */
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius:30px ;
+   
+    
+
+  }   
+  
