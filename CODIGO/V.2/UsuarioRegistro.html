@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	  <link href="Public/Css/formulario7.css" rel="stylesheet" type="text/css" />
+    <title>Registro Usuario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <header>
+      <nav>
+        <a class="ultimos" href="Index.php">Regresar</a>
+      </nav>
+    </header>
+<body>
+    <main>
+      <h1>TELCOMUNDO</h1>
+      <div class="Login">
+        <section>
+          <form action="UsuarioRegistro.php" method="post" class="formulario">
+              <fieldset>
+                  <legend> Registro Usuario</legend>
+                      <div class="contenedor-campos">
+
+                            <div class="campo">
+                                <label>Cedula</label>
+                                <input class="input-text" name='id_usuario' type='number'  size="20" placeholder="cedula"/>
+                            </div>
+                        
+                            <div class="campo">
+                                  <label>Nombre</label>
+                                  <input class="input-text" type="text" name="nombre" size="40" placeholder="nombre"/>
+                            </div>
+                              
+                                
+                            <div class="campo">
+                                  <label>Apellido</label>
+                                  <input class="input-text" name='apellido' type='text' size="20" placeholder="apellido" />
+                            </div>
+                                
+                            <div class="campo">
+                                  <label>Telefono</label>
+                                  <input class="input-text" name='tel' type='number' size="50" placeholder="telefono" />
+                            </div>
+                              
+                            <div class="campo">
+                                  <label>Correo</label>
+                                  <input class="input-text" name='correo' type='text' size="80" placeholder="correo"/>
+                            </div>
+
+                            <div class="campo">
+                                  <label>Direccion</label>
+                                  <input class="input-text" name='direccion' type='text' size="50" placeholder="direccion"/>
+                            </div>
+
+                            <div class="campo">
+                                  <label>Contraseña</label>
+                                  <input class="input-text" name='contraseña' type='password'size="50" placeholder="contraseña" />
+                            </div>
+                                
+                            <div class="campo">
+                                  <label>Repetir Contraseña</label>
+                                  <input class="input-text" name='repetir_contraseña' type='password' size="50" placeholder="repetir_contraseña"/>
+                            </div>
+
+                              <div class="alinear-derecha flex">
+                        <input type="submit" name="insert">
+                         </div>
+
+                      </div>
+      
+              </fieldset>                
+          </form>    
+        </section>
+      </div>                    
+    </main>
+</body>
+
+</html>
