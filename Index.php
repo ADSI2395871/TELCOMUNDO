@@ -9,7 +9,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Prueba</title>
+    <title>Telcomundo</title>
     <link rel="stylesheet" href="Public/Css/Login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
   <body>-
     <div class="Login">
     <img src="imagenes/claro58.jpg" class="avatar" alt="Avatar Image">
-      <h1>PRUEBA 2</h1>
+      <h1>TELCOMUNDO</h1>
       <form method=POST ACTION=iniciosesion.php>
         <label for="username">Id usuario</label>
         <input type="text" placeholder="Numero De Identificación"name="ID">
