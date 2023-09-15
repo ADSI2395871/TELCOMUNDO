@@ -7,7 +7,6 @@ $connectionInfo = array(
  "TrustServerCertificate"=>true
 );
 $conecta = sqlsrv_connect( $serverName, $connectionInfo);
-?>
 
 if($conecta){
     echo "";
