@@ -18,7 +18,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
   <body>-
     <div class="Login">
     <img src="imagenes/claro58.jpg" class="avatar" alt="Avatar Image">
-      <h1>TELCOMUNDO</h1>
+      <h1>PRUEBA 2</h1>
       <form method=POST ACTION=iniciosesion.php>
         <label for="username">Id usuario</label>
         <input type="text" placeholder="Numero De Identificación"name="ID">
