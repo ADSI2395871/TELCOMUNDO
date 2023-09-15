@@ -2,7 +2,7 @@
 $serverName = "telcomundoserv.database.windows.net";
 $connectionInfo = array( 
  "Database"=>"Telcomundo",
- "UID"=>"CloudSAa141dee4",
+ "UID"=>"cristian.gallego9066@soy.sena.edu.co",
  "PWD"=>"3202658914@ADSI",
  "TrustServerCertificate"=>true
 );
