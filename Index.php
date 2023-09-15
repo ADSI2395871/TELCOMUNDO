@@ -9,7 +9,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Telcomundo</title>
+    <title>Prueba</title>
     <link rel="stylesheet" href="Public/Css/Login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
