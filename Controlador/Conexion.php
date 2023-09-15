@@ -1,5 +1,5 @@
 <?php 
-$serverName = 'LAPTOP-B3S3OJL7\SQLEXPRESS';
+$serverName = 'LAPTOP-B3S3OJL7\SQLEXPRESS';//Nombre del servidor
 $connectionInfo = array ("Database"=>"Telcomundo","CharacterSet"=>"UTF-8");
 $conecta = sqlsrv_connect($serverName, $connectionInfo);
 
