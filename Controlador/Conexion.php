@@ -1,12 +1,8 @@
-<?php
-$serverName = "telcomundoserv.database.windows.net";
-$connectionInfo = array( 
- "Database"=>"Telcomundo",
- "UID"=>"CloudSAa141dee4",
- "PWD"=>"",
- "TrustServerCertificate"=>true
-);
-$conecta = sqlsrv_connect( $serverName, $connectionInfo);
+
+<?php 
+$serverName = 'telcomundoserv.database.windows.net';
+$connectionInfo = array ("Database"=>"Telcomundo","CharacterSet"=>"UTF-8");
+$conecta = sqlsrv_connect($serverName, $connectionInfo);
 
 if($conecta){
     echo "";
