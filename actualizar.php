@@ -28,7 +28,9 @@ if(isset($_REQUEST['codigo'])){
 
 }
 
-
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
