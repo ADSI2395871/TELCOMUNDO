@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'Telcomundo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_551A63526E6640B8AD7B7C31C775E6DC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F5B9DE0B50764978AE9877D7DF2BBBFE }}
           package: .
