@@ -1,4 +1,3 @@
-
 <?php require 'controlador/config.php';?>
 <!DOCTYPE html>
 <html lang="en">
