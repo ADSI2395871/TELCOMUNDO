@@ -13,7 +13,7 @@ if($_REQUEST['ID'] ==null && $_REQUEST['contraseña'] ==null)
             </script>
         ";
     }
-  else 
+  else {
   $Usuario = $_POST['ID'];
   $Contraseña = $_POST['contraseña'];
   session_start();
@@ -43,8 +43,8 @@ if($_REQUEST['ID'] ==null && $_REQUEST['contraseña'] ==null)
       // Aquí puedes manejar el caso en que $filas esté vacío o la consulta falle
       // Redirige o muestra un mensaje de error apropiado
       echo "<script>alert('USUARIO O CONTRASEÑA INCORRECTA'); window.location = 'Index.php';</script>";
+      }    
   }
-  
   sqlsrv_close($conecta);
 }  
     ?>
