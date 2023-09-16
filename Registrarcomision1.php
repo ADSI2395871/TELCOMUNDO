@@ -3,6 +3,9 @@ ini_set('display_errors', 1);
 try{
 include 'Controlador/Conexion.php';
 require 'controlador/config.php';
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +75,4 @@ require 'controlador/config.php';
 </body>
 
 </html>
-} catch (Exception $e) {
-    echo "Error: " . $e->getMessage();
-}
-?>
+
