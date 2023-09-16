@@ -1,12 +1,6 @@
-<html>
-<html>
-<head>
-<title>Bonos y descuentos </title>
-<h2> <strong><?php echo $_SESSION['ID'];?></strong> </h2>
-</head>
-<body>
-
 <?php
+ini_set('display_errors', 1);
+try{
      include 'Controlador/Conexion.php';
     if (isset($_POST['insert'])) {
         $id_bono = $_POST['id_bono'];
@@ -35,5 +29,8 @@
                     </script>
                 ";   
         }
+}
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
 }
 ?>
