@@ -25,7 +25,6 @@ try {
 
             // Verifica si $filas contiene datos antes de usarlo
             if ($filas) {
-                session_start();
                 $_SESSION['ID'] = $Usuario;
 
                 if ($filas['id_rol'] == 8) { // Lider    
