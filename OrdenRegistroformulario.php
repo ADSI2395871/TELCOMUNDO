@@ -1,10 +1,6 @@
-<html>
-<html>
-<head>
-<title>Registro de venta </title>
-</head>
-<body>
 <?php
+ini_set('display_errors', 1);
+try{
    include 'Controlador/Conexion.php';
    require 'controlador/config.php';
     
@@ -39,3 +35,7 @@
     }
 
 }
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
+?>
