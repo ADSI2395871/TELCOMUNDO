@@ -1,5 +1,5 @@
 <?php
-
+try{
 include 'Controlador/Conexion.php';
 
 if (isset($_POST["botton"])) {
@@ -38,5 +38,8 @@ if (isset($_POST["botton"])) {
       
         sqlsrv_close($conecta);
     }  
+}
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
 }
 ?>
