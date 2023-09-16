@@ -1,10 +1,6 @@
-<html>
-<html>
-<head>
-<title>Registrar </title>
-</head>
-<body>
 <?php
+ini_set('display_errors', 1);
+try{
      include 'Controlador/Conexion.php';
      require 'controlador/config.php';
     if (isset($_POST['insert'])) {
