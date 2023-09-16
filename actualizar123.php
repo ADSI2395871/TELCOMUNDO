@@ -27,5 +27,7 @@ if(isset($_POST['actualizar'])){
 
 
 }
-
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
 ?>
