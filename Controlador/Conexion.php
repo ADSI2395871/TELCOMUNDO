@@ -1,4 +1,3 @@
-
 <?php 
 
 $connectionInfo = array("UID" => "CloudSAa141dee4", "pwd" => "Telcomundo*", "Database" => "Telcomundo", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
