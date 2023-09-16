@@ -1,6 +1,6 @@
-
-
 <?php
+ini_set('display_errors', 1);
+try{
 require 'controlador/config.php';
 if(isset($_REQUEST['codigo'])){
 
@@ -28,7 +28,9 @@ if(isset($_REQUEST['codigo'])){
 
 }
 
-
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
