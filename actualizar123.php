@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 1);
+try{
 if(isset($_POST['actualizar'])){
     include 'Controlador/Conexion.php';
     require 'controlador/config.php';
