@@ -1,6 +1,6 @@
-
-
 <?php
+ini_set('display_errors', 1);
+try{
 require 'controlador/config.php';
 if(isset($_REQUEST['codigo'])){
 
