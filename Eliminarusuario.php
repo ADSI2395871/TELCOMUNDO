@@ -1,10 +1,4 @@
-<html>
-<head>
-     <title>Usuario Eliminado</title>
-     <link href="Public/Css/formulario1.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <?php
+<?php
     include 'Controlador/Conexion.php';
         $registros = sqlsrv_query($conecta, "select id_usuario from telcomundo.Usuario where 
         id_usuario = '$_REQUEST[id_usuario]'") or
@@ -29,4 +23,3 @@
     }
     sqlsrv_close($conecta);
     ?>
-</body>
